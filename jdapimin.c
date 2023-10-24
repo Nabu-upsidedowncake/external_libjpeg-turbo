@@ -23,6 +23,7 @@
 #include "jinclude.h"
 #include "jpeglib.h"
 #include "jdmaster.h"
+#include "jconfigint.h"
 
 
 /*

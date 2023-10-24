@@ -247,6 +247,9 @@ cc_defaults {
             ],
             local_include_dirs: ["simd/nasm"],
         },
+        riscv64: {
+            srcs: ["jsimd_none.c"],
+        },
     },
 
     target: {
@@ -289,6 +292,7 @@ cc_library {
             enabled: true,
         },
     },
+    sdk_version: "current",
 }
 
 // Build static library against the NDK
